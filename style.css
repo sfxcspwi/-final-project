@@ -1,0 +1,650 @@
+:root
+{
+   --white:#FFFFFF;
+   --light-gray: #FAFAFA;
+   --yellow: #DCCA87;
+   --gray: #AAAAAA;
+   --light-yellow: #F5EFDB;
+   --black: #0C0C0C;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0px;
+}
+
+
+.header-logo
+{
+
+    font-family: "Cormorant Upright";
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+    text-transform: uppercase;
+
+}
+
+.navigation-ul-a
+{
+    
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+
+}
+
+.navigation
+{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+
+}
+
+.h5-content
+{
+   
+    font-family: "Cormorant Upright";
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+
+}
+
+.h1-content
+{
+   
+    font-family: "Cormorant Upright";
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 117px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--yellow);
+
+}
+
+.section-p
+{
+    
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--gray);
+
+}
+
+.menu-button
+{
+    width: Hug (157px)px;
+    height: Hug (44px)px;
+    padding: 8px 32px 8px 32px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--yellow);
+    border: 0px;
+
+       
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--black);
+
+
+}
+
+.outside-p
+{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+
+}
+
+body
+{
+    background-color: #0C0C0C;
+}
+
+.scroll-p
+{
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--light-yellow);
+
+}
+
+.scroll-p:nth-child(1)
+{
+    color: #FFFFFF;
+}
+
+.scroll
+{
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--yellow);
+
+}
+
+.h2-content
+{
+    
+    font-family: "Cormorant Upright";
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--yellow);
+
+}
+
+.know-more-button
+{
+    width: Hug (141px)px;
+    height: Hug (44px)px;
+    padding: 8px 32px 8px 32px;
+    gap: 0px;
+    opacity: 0px;
+    border: 0px;
+    background-color: var(--yellow);
+
+    
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--black);
+
+}
+
+.form
+{
+    width: 412px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    border: 1px solid var(--light-yellow);
+    background-color: var(--black);
+    
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+   
+    text-decoration-skip-ink: none;
+    color: var(--gray);
+    
+}
+
+.book-a-table-button
+{
+    width: Hug (133px)px;
+    height: Hug (44px)px;
+    padding: 8px 32px 8px 32px;
+    gap: 10px;
+    opacity: 0px;
+    border: 0px;
+    background-color: var(--yellow);
+
+    
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--black);
+
+
+}
+
+.menu-nav
+{
+    
+    font-family: "Cormorant Upright";
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+
+}
+
+.menu-nav:visited
+{
+
+    font-family: "Cormorant Upright";
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid 3px var(--white);
+
+}
+
+.h3-content
+{
+   
+    font-family: "Cormorant Upright";
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+
+}
+.h5-menu
+{
+
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em; 
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--yellow);
+
+}
+
+.h5-price
+{
+    font-family: "Cormorant Upright";
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+
+}
+
+.p-menu
+{
+    
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+   
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--gray);
+
+}
+
+.view-more-button
+{
+    width: Hug (136px)px;
+    height: Hug (44px)px;
+    padding: 8px 32px 8px 32px;
+    gap: 0px;
+    opacity: 0px;
+    border: 0px;
+    background-color: var(--yellow);
+
+    
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--black);
+
+
+}
+
+.p-about-content
+{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--gray);
+
+}
+
+.p-about-content::before
+{
+    content: url(./img/“.svg);
+}
+
+.h4-content
+{
+   
+    font-family: "Cormorant Upright";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--yellow);
+}
+
+.p-about-people-content
+{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--gray);
+
+}
+
+.p-about
+{
+        
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--light-yellow);
+
+}
+
+.p-info
+{
+    
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--light-gray);
+
+}
+
+.h3-useful-inf
+{
+
+    font-family: "Cormorant Upright";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid var(--yellow);
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--yellow);
+
+}
+
+.read-more-button
+{
+
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    border: 0px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: transparent;
+    color: var(--yellow);
+
+}
+
+.subscribe-button
+{
+    width: Hug (129px)px;
+    height: Hug (44px)px;
+    padding: 8px 32px 8px 32px;
+    gap: 10px;
+    border: 0px;
+    opacity: 0px;
+    
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: var(--yellow);
+    color: var(--black);
+
+}
+
+.form-email
+{
+    width: 796px;
+    height: 60px;
+    gap: 32px;
+    opacity: 0px;
+
+    border: 1px solid var(--light-yellow);
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: transparent;
+
+
+}
+
+.footer-h4-content
+{
+    
+    font-family: "Cormorant Upright";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--light-yellow);
+
+}
+
+.footer-logo
+{
+    font-family: "Cormorant Upright";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--yellow);
+
+}
+
+.footer-p-content
+{
+    
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+
+}
+
+.bar-menu-h1
+{
+    font-family: "Cormorant Upright";
+    font-size: 181px;
+    font-weight: 700;
+    line-height: 235.3px;
+    letter-spacing: 0.05em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+
+}
+
+.bar-menu-h3
+{
+   
+    font-family: "Cormorant Upright";
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+
+}
+
+.happy-hours-h3
+{
+    font-family: "Cormorant Upright";
+    font-size: 128px;
+    font-weight: 600;
+    line-height: 166.4px;
+    letter-spacing: 0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--yellow);
+
+}
+
+.bar-menu-p
+{
+    font-family: "Cormorant Upright";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+
+}
+
+.visit-us-button
+{
+   
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--black);
+
+    width: Hug (119px)px;
+    height: Hug (44px)px;
+    padding: 8px 32px 8px 32px;
+    gap: 0px;
+    opacity: 0px;
+    border: 0px;
+    background-color: var(--yellow);
+
+}
