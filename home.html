@@ -11,29 +11,39 @@
 </head>
 <body>
 
-    <header>
+    <header class="container-out">
 
-        <a href="home.html" class="header-logo">Gerícht</a>
+        <div class="header">
 
-        <nav>
-            
-            <ul class="container">
-
-                <li><a href="" class="navigation-ul-a">Home</a></li>
-                <li><a href="" class="navigation-ul-a">Pages</a></li>
-                <li><a href="" class="navigation-ul-a">Contact Us</a></li>
-                <li><a href="" class="navigation-ul-a">Blog</a></li>
-                <li><a href="" class="navigation-ul-a">Landing</a></li>
-
-            </ul>
-
-        </nav>
+            <a href="home.html" class="header-logo">Gerícht</a>
         
-        <a href="" class="navigation">Log in / registration</a>
 
-        <div></div>
+            
+            <nav>
+                        
+                <ul class="navigation-ul">
 
-        <a href="" class="navigation">Book Table</a>
+                    <li><a href="" class="navigation-ul-a">Home</a></li>
+                    <li><a href="" class="navigation-ul-a">Pages</a></li>
+                    <li><a href="" class="navigation-ul-a">Contact Us</a></li>
+                    <li><a href="" class="navigation-ul-a">Blog</a></li>
+                    <li><a href="" class="navigation-ul-a">Landing</a></li>
+
+                </ul>
+
+            </nav>
+            
+            <div class="log-in-div">
+
+                <a href="" class="navigation">Log in / registration</a>
+                
+                <img src="./img/header-line.svg" alt="line" class="header-line">
+
+                <a href="" class="navigation">Book Table</a>
+
+            </div>
+                
+        </div>
 
     </header>
 
@@ -41,288 +51,464 @@
 
         <section>
 
-            <h5 class="h5-content">Chase The New Flavour</h5>
+            <div class="container-out">
 
-            <div></div>
+            <div class="container-inner">
 
-            <h1 class="h1-content">The Key To Fine Dining</h1>
+                <div class="entrance-section">
 
-            <p class="section-p">Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
+                    <div>
 
-            <button class="menu-button">Explore Menu</button>
+                        <h5 class="h5-content">Chase The New Flavour</h5>
 
-            <img src="" alt="eggs">
+                        <img src="./img/main-line.svg" alt="main-line">
 
-            <p class="outside-p">#Bar</p>
+                        <h1 class="h1-content">The Key To Fine Dining</h1>
 
-            <p class="outside-p">#Gericht</p>
+                        <p class="section-p">Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
 
-            <div></div>
+                        <button class="menu-button">Explore Menu</button>
 
-            <p class="scroll">Scroll</p>
+                    </div>
 
-            <div>
-                <p class="scroll-p">01</p>
+                    <div>
+                        <img src="./img/eggs.png" alt="eggs">
+                    </div>
+
+                </div>
+
+            </div>
+
+                
+                <ul>
+                    <li><p class="outside-p">#Bar</p></li>
+                    <li><p class="outside-p">#Gericht</p></li>
+                </ul>
+
                 <div></div>
-                <p class="scroll-p">02</p>
-                <p class="scroll-p">03</p>
-                <p class="scroll-p">04</p>
+
+                <p class="scroll">Scroll</p>
+
+                <div>
+                    <p class="scroll-p">01</p>
+                    <div></div>
+                    <p class="scroll-p">02</p>
+                    <p class="scroll-p">03</p>
+                    <p class="scroll-p">04</p>
+                </div>
+
+            </div>
+        
+        </section>
+
+        <section class="about-us-section">
+
+            <div class="container-inner">
+
+                <div class="about-us-div">
+
+                    <div class="about-us-info">
+                        <h2 class="h2-content">About Us</h2>
+                        <img src="img/main-line-reverse.svg" alt="main-line">
+                        <p class="section-p p-reverse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+                        <button class="know-more-button">Know More</button>
+                    </div>
+
+                    <img class="knive-png-decor" src="./img/knive.png" alt="knive">
+                    <img class="g-svg-decor" src="./img/g.svg" alt="g">
+
+                    <div>
+                        <h2 class="h2-content">Our History</h2>
+                        <img src="img/main-line.svg" alt="main-line">
+                        <p class="section-p">Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
+                        <button class="know-more-button">Know More</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+
+            <div class="container-inner">
+
+                <div class="book-a-table-section">
+                
+                <div class="main-text-div">
+                    <h5 class="h5-content">Reservations</h5>
+                    <img src="./img/main-line.svg" alt="main-line">
+                    <h2 class="h2-content">Book A Table</h2>
+                </div>
+
+                <div>
+
+                    <form  class="form-book-a-table">
+
+                        <label for="" >
+                            <select name="person" class="form">
+                                <option  value="1"> 1 Person</option>
+                                <option value="2"> 2 Person</option>
+                                <option value="3"> 3 Person</option>
+                            </select>
+                        </label>
+
+                        <label for="">
+                            <input type="date" class="form">
+                        </label>
+
+                        <label for="">
+                            <input type="time" class="form">
+                        </label> 
+
+                    </form>
+
+                </div>
+
+                <div>
+                <button class="book-a-table-button">Book Now</button>
+                </div>
+
+                </div>
+
             </div>
 
         </section>
 
-        <section>
+        <section class="menu-nav-section">
 
-            <div>
-                <h2 class="h2-content">About Us</h2>
-                <p class="section-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
-                <button class="know-more-button">Know More</button>
+            <div class="container-out">
+
+                <div class="menus-ul">
+                    <ul>
+                        <li class="menu-nav-li"><a href="barmenu.html" class="menu-nav" target="_blank">Bar Menu</a></li>
+                        <li class="menu-nav-li"><a href="#" class="menu-nav">Food Menu</a></li>
+                        <li class="menu-nav-li"><a href="#" class="menu-nav">Desserts Menu</a></li>
+                    </ul>
+                </div>
+
             </div>
-
-            <img src="" alt="">
-
-            <div>
-                <h2 class="h2-content">Our History</h2>
-                <p class="section-p">Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
-                <button class="know-more-button">Know More</button>
-            </div>
-        </section>
-
-        <section>
-
-            <h5 class="h5-content">Reservations</h5>
-
-            <div></div>
-
-            <h2 class="h2-content">Book A Table</h2>
-
-            <form action="">
-
-                <label for="" >
-                    <select name="person" class="form">
-                        <option value="1"> 1 Person</option>
-                        <option value="2"> 2 Person</option>
-                        <option value="3"> 3 Person</option>
-                    </select>
-                </label>
-
-                <label for="">
-                    <input type="date" class="form">
-                </label>
-
-                <label for="">
-                    <input type="time" class="form">
-                </label>  
-
-            </form>
-
-            <button class="book-a-table-button">Book Now</button>
-
-        </section>
-
-        <section>
-
-            <ul>
-                <li><a href="barmenu.html" class="menu-nav" target="_blank">Bar Menu</a></li>
-                <li><a href="#" class="menu-nav">Food Menu</a></li>
-                <li><a href="#" class="menu-nav">Desserts Menu</a></li>
-            </ul>
             
         </section>
 
         <section>
 
-            <h5 class="h5-content">Menu that fits you palatte</h5>
-            <div></div>
-            <h2 class="h2-content">Today’s Special</h2>
+            <div class="container-inner">
 
-            <div>
 
-                <h3 class="h3-content">Wine & Beer</h3>
+                <div class="alcohol-menu-entrance-txt">
 
-                <ul>
-                    <li>
-                        <h5 class="h5-menu">Chapel Hill Shiraz</h5>
-                        <div></div>
-                        <h5 class="h5-price">$56</h5>
-                        <p class="p-menu">AU | Bottle</p>
-                    </li>
+                    <h5 class="h5-content">Menu that fits you palatte</h5>
+                    <img src="./img/main-line.svg" alt="main-line">
+                    <h2 class="h2-content">Today’s Special</h2>
 
-                    <li>
-                        <h5 class="h5-menu">Catena Malbec</h5>
-                        <div></div>
-                        <h5 class="h5-price">$59</h5>
-                        <p class="p-menu">AR | Bottle</p>
-                    </li>
+                </div>
 
-                    <li>
-                        <h5 class="h5-menu">Chapel Hill Shiraz</h5>
-                        <div></div>
-                        <h5 class="h5-price">$44</h5>
-                        <p class="p-menu">FR | 750 ml</p>
-                    </li>
+                <div class="alcohol-menu-div">
 
-                    <li>
-                        <h5 class="h5-menu">Chapel Hill Shiraz</h5>
-                        <div></div>
-                        <h5 class="h5-price">$31</h5>
-                        <p class="p-menu">CA | 750 ml</p>
-                    </li>
+                    <div>
 
-                    <li>
-                        <h5 class="h5-menu">Chapel Hill Shiraz</h5>
-                        <div></div>
-                        <h5 class="h5-price">$26</h5>
-                        <p class="p-menu">IE | 750 ml</p>
-                    </li>
-                </ul>
+                        <h3 class="h3-content">Wine & Beer</h3>
+
+                        <ul class="alcohol-list">
+
+                            <li>
+                                <div class="alcohol-menu-li">
+                                    <h5 class="h5-menu">Chapel Hill Shiraz</h5>
+                                    <img src="./img/menu-line.svg" alt="menu-line">
+                                    <h5 class="h5-price">$56</h5>
+                                </div>
+
+                                <p class="p-menu">AU | Bottle</p>
+                            </li>
+
+                            <li>
+
+                                <div class="alcohol-menu-li">
+                                    <h5 class="h5-menu">Catena Malbec</h5>
+                                    <img src="./img/menu-line.svg" alt="menu-line">
+                                    <h5 class="h5-price">$59</h5>
+                                </div>
+                                
+                                <p class="p-menu">AR | Bottle</p>
+                            </li>
+
+                            <li>
+                                <div class="alcohol-menu-li">
+                                    <h5 class="h5-menu">Chapel Hill Shiraz</h5>
+                                    <img src="./img/menu-line.svg" alt="menu-line">
+                                    <h5 class="h5-price">$44</h5>
+                                </div>
+
+                                <p class="p-menu">FR | 750 ml</p>
+                            </li>
+
+                            <li>
+                                <div class="alcohol-menu-li">
+                                    <h5 class="h5-menu">Chapel Hill Shiraz</h5>
+                                    <img src="./img/menu-line.svg" alt="menu-line">
+                                    <h5 class="h5-price">$31</h5>
+                                </div>
+                            
+                                <p class="p-menu">CA | 750 ml</p>
+                            </li>
+
+                            <li>
+                                <div class="alcohol-menu-li">
+                                    <h5 class="h5-menu">Chapel Hill Shiraz</h5>
+                                    <img src="./img/menu-line.svg" alt="menu-line">
+                                    <h5 class="h5-price">$26</h5>
+                                </div>
+
+                                <p class="p-menu">IE | 750 ml</p>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div>
+                        <img src="./img/Cocktail.svg" alt="">
+                    </div>
+
+                    <div>
+
+                        <h3 class="h3-content">Cocktails</h3>
+
+                        <ul  class="alcohol-list">
+                            <li>
+
+                                <div class="alcohol-menu-li">
+                                    <h5 class="h5-menu">Aperol Spritz</h5>
+                                    <img src="./img/menu-line.svg" alt="menu-line">
+                                    <h5 class="h5-price">$20</h5>
+                                </div>
+                                
+                                <p class="p-menu">Aperol | Villa Marchesi prosecco | soda | 30ml</p>
+                            </li>
+
+                            <li>
+                                <div class="alcohol-menu-li">
+                                    <h5 class="h5-menu">Dark 'N' Stormy</h5>
+                                    <img src="./img/menu-line.svg" alt="menu-line">
+                                    <h5 class="h5-price">$16</h5>
+                                </div>
+                            
+                                <p class="p-menu">Dark rum | Ginger beer | Slice of lime.</p>
+                            </li>
+
+                            <li>
+                                <div class="alcohol-menu-li">
+                                    <h5 class="h5-menu">Daiquiri</h5>
+                                    <img src="./img/menu-line.svg" alt="menu-line">
+                                    <h5 class="h5-price">$10</h5>
+                                </div>
+                            
+                                <p class="p-menu">Rum | Citrus juice | Sugar</p>
+                            </li>
+
+                            <li>
+                                <div class="alcohol-menu-li">
+                                    <h5 class="h5-menu">Old Fashioned</h5>
+                                    <img src="./img/menu-line.svg" alt="menu-line">
+                                    <h5 class="h5-price">$31</h5>
+                                </div>
+                        
+                                <p class="p-menu">Bourbon | Brown sugar | Angostura Bitters</p>
+                            </li>
+
+                            <li>
+                                <div class="alcohol-menu-li">
+                                    <h5 class="h5-menu">Negroni</h5>
+                                    <img src="./img/menu-line.svg" alt="menu-line"> 
+                                    <h5 class="h5-price">$26</h5>
+                                </div>
+                            
+                                <p class="p-menu">Gin | Sweet Vermouth | Campari | Orange garnish</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                
+                <div class="view-more-button-div">
+                    <button class="view-more-button">View More</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about-chef-section">
+
+            <div class="container-inner chef-section-div">
+
+                <div>
+                    <img src="./img/chefs-photo.svg" alt="chef">
+                </div>
+
+                <div class="txt-about-chef">
+
+                    <h5 class="h5-content">Chef’s Word</h5>
+
+                    <img src="./img/main-line.svg" alt="main-line">
+
+                    <h2 class="h2-content">What we believe in</h2>
+
+                    <p class="p-about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.</p>
+
+                    <h4 class="h4-content">Kevin Luo</h4>
+
+                    <p class="section-p">Chef & Founder</p>
+
+                    <img src="./img/Kevin-Luos-signature.svg" alt="signature">
+
+                </div>
 
             </div>
 
-            <img src="" alt="">
+        </section>
 
-            <div>
+        <section>
 
-                <h3 class="h3-content">Cocktails</h3>
+            <div class="container-inner">
 
-                <ul>
-                    <li>
-                        <h5 class="h5-menu">Aperol Spritz</h5>
-                        <div></div>
-                        <h5 class="h5-price">$20</h5>
-                        <p class="p-menu">Aperol | Villa Marchesi prosecco | soda | 30ml</p>
-                    </li>
+                <div class="about-people-etrance">
+                    <h5 class="h5-content">Testimony</h5>
+                    <img src="./img/main-line.svg" alt="main-line">
+                    <h2 class="h2-content">Happy customers</h2>
+                </div>
 
-                    <li>
-                        <h5 class="h5-menu">Dark 'N' Stormy</h5>
-                        <div></div>
-                        <h5 class="h5-price">$16</h5>
-                        <p class="p-menu">Dark rum | Ginger beer | Slice of lime.</p>
-                    </li>
+                <div class="people-div">
+                    <ul class="people-item-ul">
 
-                    <li>
-                        <h5 class="h5-menu">Daiquiri</h5>
-                        <div></div>
-                        <h5 class="h5-price">$10</h5>
-                        <p class="p-menu">Rum | Citrus juice | Sugar</p>
-                    </li>
+                        <li class="people-item">
 
-                    <li>
-                        <h5 class="h5-menu">Old Fashioned</h5>
-                        <div></div>
-                        <h5 class="h5-price">$31</h5>
-                        <p class="p-menu">Bourbon | Brown sugar | Angostura Bitters</p>
-                    </li>
+                            <div>
+                                <img src="./img/sommelier.png" alt="sommelier">
+                            </div>
 
-                    <li>
-                        <h5 class="h5-menu">Negroni</h5>
-                        <div></div>
-                        <h5 class="h5-price">$26</h5>
-                        <p class="p-menu">Gin | Sweet Vermouth | Campari | Orange garnish</p>
-                    </li>
-                </ul>
+                            <div class="about-people-div">
+                                <p class="p-about-people-content">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                                <h4 class="h4-content">Wade Warren</h4>
+                                <p class="p-about">Sommelier</p>
+                            </div>
 
+                        </li>
+
+                        <li class="people-item">
+
+                            <div>
+                                <img src="./img/chef-jane.png" alt="chef-jane">
+                            </div>
+                            
+                            <div class="about-people-div">
+                                <p class="p-about-people-content">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                                <h4 class="h4-content">Jane Cooper</h4>
+                                <p class="p-about">Chef</p>
+                            </div>
+
+                        </li>
+
+                        <li class="people-item">
+
+                            <div>
+                                <img src="./img/chef.png" alt="chef-robert">
+                            </div>
+                            
+                            <div class="about-people-div">
+                                <p class="p-about-people-content">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                                <h4 class="h4-content">Robert Fox</h4>
+                                <p class="p-about">Chef</p>
+                            </div>
+                        
+                        </li>
+
+                        <li class="people-item">
+
+                            <div>
+                                <img src="./img/caterer.png" alt="caterer">
+                            </div>
+                            
+                            <div class="about-people-div">
+                                <p class="p-about-people-content">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                                <h4 class="h4-content">Brooklyn Simmons</h4>
+                                <p class="p-about">Caterer</p>
+                            </div>
+                        
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-            <button class="view-more-button">View More</button>
+        </section>
+
+        <section class="video-section">
+
+            <div class="container-out">
+                <div></div>
+            </div>
 
         </section>
 
-        <section>
+        <section class="laurels-section">
 
-            <img src="" alt="">
+            <div class="container-inner awards-div">
+                    
+                <div>
 
-            <h5 class="h5-content">Chef’s Word</h5>
+                    <div class="awards-text">
+                        <h5 class="h5-content">Awards & recognition</h5>
+                        <img src="./img/main-line.svg" alt="main-line">
+                        <h2 class="h2-content">Our Laurels</h2>
+                    </div>
 
-            <div></div>
+                    <ul class="rate-ul">
+                        
+                        <li class="rate-li">
+                            <img src="./img/rate-2.svg" alt="rate2">
+                            <div class="rate-li-text">
+                                <h5 class="h5-menu">Bib Gourmond</h5>
+                                <p class="section-p rate-p">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </li>
 
-            <h2 class="h2-content">What we believe in</h2>
+                        <li class="rate-li">
+                            <img src="./img/rate-1.svg" alt="rate1">
+                            <div class="rate-li-text">
+                                <h5 class="h5-menu">Rising Star</h5>
+                                <p class="section-p rate-p">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </li>
 
-            <p class="p-about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.</p>
+                    </ul>
 
-            <h4 class="h4-content">Kevin Luo</h4>
+                    <ul class="rate-ul">
 
-            <p class="section-p">Chef & Founder</p>
+                        <li class="rate-li">
+                            <img src="./img/rate-5.svg" alt="rate5">
+                            <div class="rate-li-text">
+                                <h5 class="h5-menu">AA Hospitality</h5>
+                                <p class="section-p rate-p">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </li>
+                        
+                        <li class="rate-li">
+                            <img src="./img/rate-3.svg" alt="rate3">
+                            <div class="rate-li-text">
+                                <h5 class="h5-menu">Outstanding Chef</h5>
+                                <p class="section-p rate-p">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </li>
 
-            <img src="./img/Kevin-Luos-signature.svg" alt="signature">
+                    </ul>
 
-        </section>
+                </div>
 
-        <section>
+                <div class="meat-img-div">
+                    <img src="./img/meat-g.png" alt="meat-g">
+                </div>
 
-            <h5 class="h5-content">Testimony</h5>
-            <div></div>
-            <h2 class="h2-content">Happy customers</h2>
-
-            <ul>
-                <li>
-                    <img src="" alt="">
-                    <p class="p-about-people-content">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
-                    <h4 class="h4-content">Wade Warren</h4>
-                    <p class="p-about">Sommelier</p>
-                </li>
-
-                <li>
-                    <img src="" alt="">
-                    <p class="p-about-people-content">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
-                    <h4 class="h4-content">Jane Cooper</h4>
-                    <p class="p-about">Chef</p>
-                </li>
-
-                <li>
-                    <img src="" alt="">
-                    <p class="p-about-people-content">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
-                    <h4 class="h4-content">Robert Fox</h4>
-                    <p class="p-about">Chef</p>
-                </li>
-
-                <li>
-                    <img src="" alt="">
-                    <p class="p-about-people-content">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
-                    <h4 class="h4-content">Brooklyn Simmons</h4>
-                    <p class="p-about">Caterer</p>
-                </li>
-            </ul>
-
-        </section>
-
-        <section>
-            <div></div>
-        </section>
-
-        <section>
-
-            <h5 class="h5-content">Awards & recognition</h5>
-            <div></div>
-            <h2 class="h2-content">Our Laurels</h2>
-
-            <ul>
-                <li>
-                    <div></div>
-                    <h5 class="h5-menu">Bib Gourmond</h5>
-                    <p class="section-p">Lorem ipsum dolor sit amet, consectetur.</p>
-                </li>
-
-                <li>
-                    <div></div>
-                    <h5 class="h5-menu">Rising Star</h5>
-                    <p class="section-p">Lorem ipsum dolor sit amet, consectetur.</p>
-                </li>
-
-                <li>
-                    <div></div>
-                    <h5 class="h5-menu">AA Hospitality</h5>
-                    <p class="section-p">Lorem ipsum dolor sit amet, consectetur.</p>
-                </li>
-
-                <li>
-                    <div></div>
-                    <h5 class="h5-menu">Outstanding Chef</h5>
-                    <p class="section-p">Lorem ipsum dolor sit amet, consectetur.</p>
-                </li>
-            </ul>
-
-            <img src="" alt="">
+            </div>
 
         </section>
 

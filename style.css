@@ -17,6 +17,8 @@ ul
 {
     list-style-type: none;
     margin: 0px;
+    
+
 }
 
 
@@ -33,8 +35,13 @@ ul
     text-decoration-skip-ink: none;
     color: var(--white);
     text-transform: uppercase;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px ;
+
 
 }
+
 
 .navigation-ul-a
 {
@@ -48,7 +55,18 @@ ul
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--white);
+    display: flex;
+    margin: 0px;
+    padding-top: 46px;
+    padding-bottom: 46px;
 
+}
+
+.navigation-ul
+{
+    display: flex;
+    gap: 32px;
+    
 }
 
 .navigation
@@ -58,13 +76,38 @@ ul
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0.05em;
-    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--white);
 
 }
 
+
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.header-line
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.log-in-div
+{
+    display: flex;
+    align-items: center;
+}
+.form-book-a-table
+{
+    display: flex;
+    gap: 32px;
+}
 .h5-content
 {
    
@@ -73,13 +116,18 @@ ul
     font-weight: 700;
     line-height: 29.9px;
     letter-spacing: 0.04em;
-    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--white);
+    margin: 0px;
 
 }
 
+.entrance-section
+{
+    display: flex;
+    align-items: center;
+}
 .h1-content
 {
    
@@ -92,6 +140,7 @@ ul
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--yellow);
+    margin: 0px;
 
 }
 
@@ -107,8 +156,12 @@ ul
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--gray);
+    
 
+    width: 453px;
+    padding-bottom: 32px;
 }
+
 
 .menu-button
 {
@@ -146,11 +199,37 @@ ul
     text-decoration-skip-ink: none;
     color: var(--white);
 
+    transform: rotate(180deg);
+
+    writing-mode: vertical-lr;
+    display: flex;
+    align-self: center;
+    justify-content: left;
+
+    margin: 0px;
+
+    padding-top: 40px;
+    
+}
+
+.about-us-div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 body
 {
     background-color: #0C0C0C;
+
+}
+
+.about-us-info
+{
+    text-align: right;
+    z-index: 1;
 }
 
 .scroll-p
@@ -164,13 +243,96 @@ body
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--light-yellow);
+    margin: 0px;
 
+}
+.about-us-section
+{
+    background-image: linear-gradient(to right, rgba(4, 4, 4, 0.4), rgba(4, 4, 4, 0.4)), url(./img/bg.svg);
+}
+
+.book-a-table-section
+{
+    display: flex;
+    justify-content: center;
 }
 
 .scroll-p:nth-child(1)
 {
     color: #FFFFFF;
 }
+
+.video-section
+{
+    background-image: url(./img/Video.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 763px;
+    top: 7119px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.g-svg-decor
+{
+    position: absolute;
+    position: center;
+    z-index: 0;
+    width: 391px;
+    height: 415px;
+    top: 1498px;
+    left: 1000px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.knive-png-decor
+{
+    padding-top: 120px;
+    padding-bottom: 136px;
+    z-index: 3;
+}
+
+.book-a-table-section
+{
+    margin-bottom: 152px;
+    margin-top: 157px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1364px
+
+    height: Hug (466px)px;
+    top: 2260px;
+    left: 278px;
+    padding: 48px 32px 48px 32px;
+    gap: 64px;
+    opacity: 0px;
+    background: var(--black);
+    border: 1px solid #DCCA8733;
+    box-shadow: 22px 30px 95px 1px #000000B2;
+
+    
+
+}
+
+.about-chef-section
+{
+    background-image: linear-gradient(to right, rgba(4, 4, 4, 0.4), rgba(4, 4, 4, 0.4)), url(./img/bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1045px;
+}
+
+.view-more-button-div
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 152px;
+}
+
 
 .scroll
 {
@@ -186,6 +348,24 @@ body
 
 }
 
+.chef-section-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.txt-about-chef
+{
+    width:570px;
+    height: 615px;
+    gap: 64px;
+    opacity: 0px;
+    margin-top: 215px;
+    margin-bottom: 215px;
+    
+}
 .h2-content
 {
     
@@ -197,6 +377,7 @@ body
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--yellow);
+    margin: 0px;
 
 }
 
@@ -223,12 +404,13 @@ body
 
 }
 
-.form
+.form 
 {
-    width: 412px;
+    width: 390px;
     height: 60px;
     gap: 0px;
     opacity: 0px;
+    
     border: 1px solid var(--light-yellow);
     background-color: var(--black);
     
@@ -237,12 +419,47 @@ body
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0.04em;
-    text-align: center;
+    align-items: center;
    
     text-decoration-skip-ink: none;
     color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+    appearance: none;
+    background-image: url(./img/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 16px) center;
     
 }
+
+.form::-webkit-calendar-picker-indicator 
+{
+    
+}
+
+.p-reverse
+{
+    text-align: right;
+}
+
+.main-text-div
+{
+    width: Hug (350px)px;
+    height: Hug (138px)px;
+    gap: 8px;
+    opacity: 0px;
+    text-align: center;
+
+}
+.alcohol-list
+{
+    padding: 0px;
+}
+
+
 
 .book-a-table-button
 {
@@ -268,6 +485,41 @@ body
 
 }
 
+.menu-nav-section
+{
+    background-image:  linear-gradient(to right, rgba(12, 12, 12, 0.4), rgba(12, 12, 12, 0.4)), url(./img/beer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+}
+
+.alcohol-menu-entrance-txt
+{
+    text-align: center;
+    justify-content: center;
+    margin-top: 152px;
+    margin-bottom: 64px;
+}
+
+
+
+.alcohol-menu-div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alcohol-menu-li
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: left;
+    
+    padding: 0px;
+
+}
+
 .menu-nav
 {
     
@@ -276,14 +528,30 @@ body
     font-weight: 600;
     line-height: 83.2px;
     letter-spacing: 0.03em;
-    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--white);
+    
 
 }
 
-.menu-nav:visited
+.menus-ul
+{
+  
+    height: 900px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.menu-nav-li
+{
+    margin-bottom: 64px;
+}
+
+.menu-nav:hover
 {
 
     font-family: "Cormorant Upright";
@@ -308,6 +576,7 @@ body
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--white);
+    text-align: center;
 
 }
 .h5-menu
@@ -321,7 +590,79 @@ body
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--yellow);
+    margin: 0px;
+    width: 192px;
+    height: 27px;
+    gap: 0px;
+    opacity: 0px;
 
+
+}
+.laurels-section
+{
+    background-image: linear-gradient(to right, rgba(4, 4, 4, 0.4), rgba(4, 4, 4, 0.4)), url(./img/bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 947px;
+}
+
+.awards-div
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.laurels-main-text
+{
+    width: Hug (634px)px;
+    height: Hug (454px)px;
+    gap: 64px;
+    opacity: 0px;
+
+}
+
+.rate-li-text
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 190px;
+    height:94px;
+    gap: 8px;
+    opacity: 0px;
+}
+.rate-li
+{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.awards-text
+{
+    margin-bottom: 64px;
+}
+
+.rate-p
+{
+    margin: 0px;
+}
+
+.meat-img-div
+{
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.rate-ul
+{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-bottom: 64px;
+    padding: 0px;
 }
 
 .h5-price
@@ -334,7 +675,33 @@ body
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--white);
+    margin: 0px;
+    margin-left: 32px;
+    margin-right: 32px;
 
+}
+
+.about-people-etrance
+{
+    text-align: center;
+    justify-content: center;
+    margin-top: 152px;
+    margin-bottom: 64px;
+}
+
+.people-item-ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 0px;
+}
+
+.people-item
+{
+    flex-basis: calc((100% - 32px) / 2 );
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .p-menu
@@ -351,9 +718,14 @@ body
     color: var(--gray);
 
 }
-
+.people-div
+{
+    margin-bottom: 152px;
+}
 .view-more-button
 {
+
+
     width: Hug (136px)px;
     height: Hug (44px)px;
     padding: 8px 32px 8px 32px;
@@ -368,16 +740,17 @@ body
     font-weight: 700;
     line-height: 28px;
     letter-spacing: 0.04em;
-    text-align: left;
+    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--black);
-
+    margin-top: 64px;
 
 }
 
 .p-about-content
 {
+
     font-family: "Open Sans";
     font-size: 16px;
     font-style: italic;
@@ -388,12 +761,14 @@ body
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--gray);
-
+   
 }
 
 .p-about-content::before
 {
     content: url(./img/“.svg);
+    text-align: center;
+    padding-right: 10px;
 }
 
 .h4-content
@@ -408,6 +783,7 @@ body
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--yellow);
+    margin: 0px;
 }
 
 .p-about-people-content
@@ -422,7 +798,17 @@ body
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--gray);
+    width: 412px;
+    height: 84px;
+    gap: 0px;
+    opacity: 0px;
+    
 
+}
+
+.about-people-div
+{
+    margin-left: 16px;
 }
 
 .p-about
@@ -437,6 +823,7 @@ body
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--light-yellow);
+    margin: 0px;
 
 }
 
@@ -648,3 +1035,21 @@ body
     background-color: var(--yellow);
 
 }
+
+.container-inner
+{
+    max-width: 1300px;
+    margin: 0 auto;
+    
+    
+}
+
+.container-out
+{
+    max-width: 1680px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    
+}
+
