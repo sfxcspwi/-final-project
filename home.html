@@ -62,8 +62,9 @@
                         <h5 class="h5-content">Chase The New Flavour</h5>
 
                         <img src="./img/main-line.svg" alt="main-line">
-
-                        <h1 class="h1-content">The Key To Fine Dining</h1>
+                        <div class="h1-div">
+                            <h1 class="h1-content">The Key To Fine Dining</h1>
+                        </div>
 
                         <p class="section-p">Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
 
@@ -71,7 +72,7 @@
 
                     </div>
 
-                    <div>
+                    <div class="img-eggs">
                         <img src="./img/eggs.png" alt="eggs">
                     </div>
 
@@ -79,22 +80,32 @@
 
             </div>
 
-                
-                <ul>
-                    <li><p class="outside-p">#Bar</p></li>
-                    <li><p class="outside-p">#Gericht</p></li>
-                </ul>
+                <div class="outside-text">
+                   
+                    <p class="outside-p">#Bar</p>
+                    <p class="outside-p">#Gericht</p>
+                  
+                </div>
 
-                <div></div>
+                <div class="scroll-div">
 
-                <p class="scroll">Scroll</p>
+                    <div>
+                        <img src="./img/vertical-line.svg" alt="vertical-line">
+                    </div>
 
-                <div>
+                    <div>
+                        <p class="scroll">Scroll</p>
+                    </div>
+                </div>
+
+                <div class="scroll-p-div">
+
                     <p class="scroll-p">01</p>
-                    <div></div>
+                    <img src="./img/line-2.svg" alt="line-2">
                     <p class="scroll-p">02</p>
                     <p class="scroll-p">03</p>
                     <p class="scroll-p">04</p>
+                    
                 </div>
 
             </div>
@@ -136,39 +147,39 @@
 
                 <div class="book-a-table-section">
                 
-                <div class="main-text-div">
-                    <h5 class="h5-content">Reservations</h5>
-                    <img src="./img/main-line.svg" alt="main-line">
-                    <h2 class="h2-content">Book A Table</h2>
-                </div>
+                    <div class="main-text-div">
+                        <h5 class="h5-content">Reservations</h5>
+                        <img src="./img/main-line.svg" alt="main-line">
+                        <h2 class="h2-content">Book A Table</h2>
+                    </div>
 
-                <div>
+                    <div>
 
-                    <form  class="form-book-a-table">
+                        <form  class="form-book-a-table">
 
-                        <label for="" >
-                            <select name="person" class="form">
-                                <option  value="1"> 1 Person</option>
-                                <option value="2"> 2 Person</option>
-                                <option value="3"> 3 Person</option>
-                            </select>
-                        </label>
+                            <label for="" >
+                                <select name="person" class="form">
+                                    <option  value="1"> 1 Person</option>
+                                    <option value="2"> 2 Person</option>
+                                    <option value="3"> 3 Person</option>
+                                </select>
+                            </label>
 
-                        <label for="">
-                            <input type="date" class="form">
-                        </label>
+                            <label for="">
+                                <input type="date" class="form">
+                            </label>
 
-                        <label for="">
-                            <input type="time" class="form">
-                        </label> 
+                            <label for="">
+                                <input type="time" class="form">
+                            </label> 
 
-                    </form>
+                        </form>
 
-                </div>
+                    </div>
 
-                <div>
-                <button class="book-a-table-button">Book Now</button>
-                </div>
+                    <div>
+                        <button class="book-a-table-button">Book Now</button>
+                    </div>
 
                 </div>
 
@@ -514,66 +525,106 @@
 
         <section>
 
-            <h5 class="h5-content">Blogs</h5>
-            <div></div>
-            <h2 class="h2-content">Gerícht updates</h2>
+            <div class="container-inner">
+                <div class="blogs-title">
+                    <h5 class="h5-content">Blogs</h5>
+                    <img src="./img/main-line.svg" alt="main-line">
+                    <h2 class="h2-content">Gerícht updates</h2>
+                </div>
 
-            <ul>
-                <li>
-                    <img src="" alt="">
+                <div>
+                    <ul class="blogs-ul">
 
-                    <p class="p-info">16 Apr 2021</p>
-                    <p class="p-info">- Annalisa L</p>
+                        <li class="blogs-li">
 
-                    <h3 class="h3-useful-inf">Tips For Prepping And Caring For Your Grill</h3>
-                    <p class="section-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                    
-                    <button class="read-more-button">Read More</button>
-                </li>
+                            <img src="./img/steak.png" alt="steak">
 
-                <li>
-                    <img src="" alt="">
+                            <div>
 
-                    <p class="p-info">23 May 2021</p>
-                    <p class="p-info">-John Micheal</p>
+                                <ul class="p-info-div">
+                                    <li><p class="p-info">16 Apr 2021</p></li>
+                                    <li><p class="p-info">- Annalisa L</p></li>
+                                </ul>
+                                
+                            </div>
 
-                    <h3 class="h3-useful-inf">Summer Cocktails And Mocktails</h3>
-                    <p class="section-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                    
-                    <button class="read-more-button">Read More</button>
-                </li>
+                            <h3 class="h3-useful-inf">Tips For Prepping And Caring For Your Grill</h3>
+                            <p class="section-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                            
+                            <button class="read-more-button">Read More</button>
+                        </li>
 
-                <li>
-                    <img src="" alt="">
+                        <li class="blogs-li">
+                            <img src="./img/fresh.png" alt="fresh">
 
-                    <p class="p-info">06 Aug 2021</p>
-                    <p class="p-info">-Fred W</p>
+                            <div>
 
-                    <h3 class="h3-useful-inf">Easy Cooking For College Students</h3>
-                    <p class="section-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                    
-                    <button class="read-more-button">Read More</button>
-                </li>
-            </ul>
+                                <ul class="p-info-div">
+                                    <li><p class="p-info">23 May 2021</p></li>
+                                    <li><p class="p-info">-John Micheal</p></li>
+                                </ul>
+                               
+                            </div>
 
-            <button class="view-more-button">View More</button>
+                            <h3 class="h3-useful-inf">Summer Cocktails And Mocktails</h3>
+                            <p class="section-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                            
+                            <button class="read-more-button">Read More</button>
+                        </li>
+
+                        <li class="blogs-li">
+                            <img src="./img/cheese-ball.png" alt="cheese-ball">
+                            
+                            <div>
+
+                                <ul class="p-info-div">
+                                    <li><p class="p-info">06 Aug 2021</p></li>
+                                    <li><p class="p-info">-Fred W</p></li>
+                                </ul>
+
+                            </div>
+
+                            <h3 class="h3-useful-inf">Easy Cooking For College Students</h3>
+                            <p class="section-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                            
+                            <button class="read-more-button">Read More</button>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="view-more-button-div">
+                    <button class="view-more-button">View More</button>
+                </div>
+
+            </div>
 
         </section>
 
-        <section>
+        <section class="gallery-section">
 
-            <h5 class="h5-content">Instagram</h5>
-            <div></div>
-            <h2 class="h2-content">Photo Gallery</h2>
-            <p class="section-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
-            <button class="view-more-button">View More</button>
+            <div class="container-inner photo-gallery-section">
 
-            <ul>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-            </ul>
+
+                <div class="gallery-text-div">
+
+                    <h5 class="h5-content">Instagram</h5>
+                    <img src="./img/main-line.svg" alt="main-line">
+                    <h2 class="h2-content">Photo Gallery</h2>
+                    <p class="section-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
+                    <button class="view-more-button gallery-button">View More</button>
+                
+                </div>
+
+
+                <div>
+                    <ul class="gallery-ul">
+                        <li class="gallery-item gallery-li-item"></li>
+                        <li class="gallery-item gallery-li-item"></li>
+                        <li class="gallery-item gallery-li-item"></li>
+                    </ul>
+                </div>
+
+            </div>
 
         </section>
 
@@ -581,50 +632,95 @@
     </main>
 
     <footer>
-        <div>
-            <h5 class="h5-content">Newsletter</h5>
-            <div></div>
-            <h2 class="h2-content">Subscribe to Our Newsletter</h2>
-            <p class="p-info">And never miss latest Updates!</p>
+        <div class="container-out">
+            <div class="container-inner">
 
-            <label for="email">
-                <input type="email" class="form-email" name="email" placeholder="Email Address">
-            </label>
+                <div class="form-email-div">
 
-            <button class="subscribe-button">Subscribe</button>
+                    <div class="form-text-window">
+                        <div class="main-text-div">
+                            <h5 class="h5-content">Newsletter</h5>
+                            <img src="./img/main-line.svg" alt="main-line">
+                            <h2 class="h2-content">Subscribe to Our Newsletter</h2>
+                            <p class="p-info-footer">And never miss latest Updates!</p>
+                        </div>
+
+                        <div class="footer-form">
+
+                            <label for="email">
+                                <input type="email" class="form-email" name="email" placeholder="Email Address">
+                            </label>
+                        
+                            <button class="subscribe-button">Subscribe</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <div class="scroll-div-top">
+
+                <div>
+                    <img src="./img/vertical-line.svg" alt="vertical-line">
+                </div>
+
+                <div>
+                    <p class="scroll-top">Top</p>
+                </div>
+            </div>
         </div>
 
-        <div>
-            <div>
-                <h4 class="footer-h4-content">Contact Us</h4>
-                <ul>
-                    <li><p class="section-p">9 W 53rd St, New York, NY 10019, USA</p></li>
-                    <li><p class="section-p">+1 212-344-1230</p></li>
-                    <li><p class="section-p">+1 212-555-1230</p></li>
-                </ul>
+        <div class="contact-us-footer-div">
+            
+            <div class="container-inner">
+                
+                <div class="contact-us-text">
+
+                    <div class="contact-us-info">
+
+                        <h4 class="footer-h4-content">Contact Us</h4>
+                        <p class="footer-p address">9 W 53rd St, New York, NY 10019, USA</p>
+
+                        <ul>
+                            <li><p class="footer-p">+1 212-344-1230</p></li>
+                            <li><p class="footer-p">+1 212-555-1230</p></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="find-us-info">
+
+                        <h2 class="footer-logo">Gerícht</h2>
+                        <p class="footer-p-content">"The best way to find yourself is to lose yourself in the service of others.”</p>
+                        <img src="./img/main-line.svg" alt="main-line">
+
+                        <ul class="img-logo-footer">
+                            <li><img src="./img/facebook-logo.svg" alt="fb-logo"></li>
+                            <li><img src="./img/twitter-logo.svg" alt="twit-logo"></li>
+                            <li><img src="./img/inst-logo.svg" alt="inst-logo"></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="work-hours-info">
+                        <h4 class="footer-h4-content">Working Hours</h4>
+                        <ul class="footer-ul"> 
+                            <li class="footer-li"><p class="footer-p">Monday-Friday: 08:00 am -12:00 am</p></li>
+                            <li class="footer-li"><p class="footer-p">Saturday-Sunday: 07:00am -11:00 pm</p></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="rights-info">
+                    <p class="section-p footer-p">2021 Gerícht. All Rights reserved.</p>
+                </div>
             </div>
 
-            <div>
-                <h2 class="footer-logo">Gerícht</h2>
-                <p class="footer-p-content">"The best way to find yourself is to lose yourself in the service of others.”</p>
-                <div></div>
-                <ul>
-                    <li><img src="./img/facebook-logo.svg" alt="fb-logo"></li>
-                    <li><img src="./img/twitter-logo.svg" alt="twit-logo"></li>
-                    <li><img src="./img/inst-logo.svg" alt="inst-logo"></li>
-                </ul>
-            </div>
-
-            <div>
-                <h4 class="footer-h4-content">Working Hours</h4>
-                <ul>
-                    <li><p class="section-p">Monday-Friday: 08:00 am -12:00 am</p></li>
-                    <li><p class="section-p">Saturday-Sunday: 07:00am -11:00 pm</p></li>
-                </ul>
-            </div>
-
-            <p class="section-p">2021 Gerícht. All Rights reserved.</p>
         </div>
+
+
     </footer>
 
 </body>
