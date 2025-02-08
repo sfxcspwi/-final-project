@@ -81,7 +81,18 @@ ul
 
 }
 
+.header-bg
+{
+    background-image: linear-gradient(to right, rgba(4, 4, 4, 0.4), rgba(4, 4, 4, 0.4)), url(./img/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.img-barmenu-div
+{
+    display: flex;
+    justify-content: center;
+}
 
 .header
 {
@@ -91,10 +102,23 @@ ul
     flex-wrap: nowrap;
 }
 
+
 .header-line
 {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.etrence-div
+{
+    height: 1000px;
+}
+
+.find-us-section
+{
+    background-image: linear-gradient(to right, rgba(4, 4, 4, 0.4), rgba(4, 4, 4, 0.4)), url(./img/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .log-in-div
@@ -123,6 +147,24 @@ ul
 
 }
 
+.find-us-div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-line-div
+{
+    display: flex;
+    justify-content: center;
+}
+.img-cocktail
+{
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
 .scroll-div
 {
     display: flex;
@@ -130,6 +172,122 @@ ul
     position: relative;
     bottom: 125px;
 }
+
+
+.decor-logo
+{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+}
+
+.logo:nth-child(1)
+{
+    width: 146.00042724609375;
+    height: 146;
+    top: 2084px;
+    left: 1623px;
+}
+
+.logo:nth-child(2)
+{
+    width: 146.00042724609375;
+    height: 146;
+    top: 2925px;
+    left: 120px;
+    
+}
+
+.logo:nth-child(3)
+{
+    width: 146.00042724609375;
+    height: 146;
+    top: 6079px;
+    left: 1487px;
+}
+
+.logo:nth-child(4)
+{
+    width: 146.00042724609375;
+    height: 146;
+    top: 7266px;
+    left: 197px;
+}
+
+.logo:nth-child(5)
+{
+    width: 146.00042724609375;
+    height: 146;
+    top: 9948px;
+    left: 1682px;
+
+}
+
+.logo:nth-child(6)
+{
+    width: 146.00039672851562;
+    height: 146;
+    top: 10863px;
+    left: 106px;
+
+}
+
+.logo-barmenu:nth-child(1)
+{
+    width: 146.00042724609375;
+    height: 146;
+    top: 1068px;
+    left: 1623px;
+
+}
+
+.logo-barmenu:nth-child(2)
+{
+    width: 146.00039672851562;
+    height: 146;
+    top: 1872px;
+    left: 146px;
+
+}
+
+.logo-barmenu:nth-child(3)
+{
+    width: 146.00042724609375;
+    height: 146;
+    top: 5063px;
+    left: 1567px;
+
+}
+
+.logo-barmenu:nth-child(4)
+{
+    width: 146.00042724609375;
+    height: 146;
+    top: 6120px;
+    left: 97px;
+    
+}
+
+.logo-barmenu:nth-child(5)
+{
+    width: 146.00042724609375;
+    height: 146;
+    top: 7265px;
+    left: 1562px;
+
+    
+}
+
+
+.scroll-div-barmenu
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 325px;
+
+}
+
 
 .scroll-div-top
 {
@@ -155,6 +313,7 @@ ul
     margin-bottom: 10px;
     position: relative;
     bottom: 125px;
+
 }
 .h1-content
 {
@@ -200,6 +359,20 @@ ul
 
 }
 
+.section-p-barmenu
+{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--gray);
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
 
 .section-p
 {
@@ -253,6 +426,16 @@ ul
 
 }
 
+.outside-text-barmenu
+{
+    width: 32px;
+    height: 161px;
+    position: relative;
+    bottom: 750px;
+}
+
+
+
 .outside-p
 {
     font-family: "Open Sans";
@@ -270,12 +453,48 @@ ul
     writing-mode: vertical-lr;
     display: flex;
     align-self: center;
-    justify-content: left;
 
     margin: 0px;
 
     padding-top: 40px;
     
+}
+
+.scroll-p-outside-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    bottom: 250px;
+}
+.outside-line
+{
+    margin-bottom: 8px;
+    padding-right: 15px;
+}
+
+.scroll-p-outside
+{
+    display: flex;
+    align-items: center;
+    
+    
+    writing-mode: vertical-lr;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--light-yellow);
+   
+
 }
 
 .about-us-div
@@ -405,6 +624,27 @@ body
 
 }
 
+.scroll-barmenu
+{
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--yellow);
+    position: relative;
+    top: 70px; 
+    right: 20px;
+    text-transform: uppercase;
+    margin: 0px;
+    width: 61;
+    height: 21;
+
+}
+
 .about-chef-section
 {
     background-image: linear-gradient(to right, rgba(4, 4, 4, 0.4), rgba(4, 4, 4, 0.4)), url(./img/bg.svg);
@@ -487,6 +727,25 @@ body
     color: var(--yellow);
     margin: 0px;
 
+}
+
+.food-drinks-h2
+{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 614px;
+    height: 166px;
+    font-family: "Cormorant Upright";
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: var(--yellow);
+    margin: 0px;
 }
 
 .know-more-button
@@ -573,6 +832,12 @@ body
     opacity: 0px;
     text-align: center;
 
+}
+
+.happy-hours-section
+{
+    background-image: url(./img/cocktail-bg.png);
+    height: 900px;
 }
 .alcohol-list
 {
@@ -1046,6 +1311,7 @@ body
     background-image: url(./img/ramen.png);
     width: 301px;
     height: 447px;
+    border: 1px solid var(--light-yellow);
 
 }
 .gallery-ul > li:nth-child(2)
@@ -1053,6 +1319,7 @@ body
     background-image: url(./img/beers.png);
     width: 301px;
     height: 447px;
+    border: 1px solid var(--light-yellow);
 }
 
 .gallery-ul > li:nth-child(3)
@@ -1060,44 +1327,46 @@ body
     background-image: url(./img/fried-egg.png);
     width: 301px;
     height: 447px;
+    border: 1px solid var(--light-yellow);
 }
 
-.gallery-item::before
+.gallery-ul > li:nth-child(1):hover 
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/ramen.png);
+}
+
+.gallery-ul > li:nth-child(2):hover 
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/beers.png);
+}
+
+.gallery-ul > li:nth-child(3):hover 
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/fried-egg.png);
+}
+
+.gallery-item-img
 {
     opacity: 0;
-    transition: opacity 0.5s ease;
-    transform: scale(1.05);  
-    content: url(./img/inst-logo-big.svg);
-    
 }
 
-.gallery-item:hover::before
+.gallery-item:hover .gallery-item-img
 {
     opacity: 1;
-    transition: opacity 0.5s ease;
-    transform: scale(1.05);  
-    content: url(./img/inst-logo-big.svg);
-    
 }
 
-.gallery-li-item:hover
-{
-    background-image: linear-gradient(to right, rgba(4, 4, 4, 0.4), rgba(4, 4, 4, 0.4)),;
-    width: 301px;
-    height: 447px;
-    opacity: 0.4;
-   
-}
 
 .gallery-item
 {
-   display: flex;
-   display: grid;
-   place-items: center;
-   width: 301px;
-   height: 447px;
-   grid-area: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 .photo-gallery-section
 {
@@ -1124,6 +1393,13 @@ body
 
 }
 
+.food-drinks-section
+{
+    background-image: linear-gradient(to right, rgba(4, 4, 4, 0.4), rgba(4, 4, 4, 0.4)), url(./img/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .img-logo-footer
 {
     display: flex;
@@ -1132,14 +1408,36 @@ body
     margin-top: 16px;
 }
 
+.food-drinks-div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}
 .contact-us-text
 {
     display: flex;
-    align-items: baseline ;
-    
-    text-align: center;
-    
+    align-items: baseline ; 
+    text-align: center; 
 }
+
+.beer-machine-div
+{
+    margin-bottom: 128px;
+}
+
+.food-drinks-text
+{
+    margin-top: 40px;
+}
+
+.food-drinks-text-div
+{
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
 
 .rights-info
 {
@@ -1359,6 +1657,11 @@ body
 
 }
 
+.happy-hours-div
+{
+   
+    height: 900px;
+}
 .happy-hours-h3
 {
     font-family: "Cormorant Upright";
@@ -1369,7 +1672,106 @@ body
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--yellow);
+    text-align: center;
 
+    padding-top: 330px;
+    padding-bottom: 32px;
+    margin-bottom: 0px;
+
+}
+
+.assortment-ul
+{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    gap: 32px;
+    margin-top: 64px;
+}
+
+.assortment-li:hover
+{
+    background-image: linear-gradient(to right, rgba(4, 4, 4, 0.4), rgba(4, 4, 4, 0.4)), url(./img/bg.svg);
+    
+}
+
+
+.assortment-ul > li:nth-child(1) 
+{
+    background-image: url(./img/beer-assortment.svg);
+    width: 412px;
+    height: 600px;
+    border: 1px solid var(--light-yellow);
+    transition: 0.5s ease;
+    
+}
+
+.assortment-ul > li:nth-child(2) 
+{
+    background-image: url(./img/wine-assortment.svg);
+    width: 412px;
+    height: 600px;
+    border: 1px solid var(--light-yellow);
+    transition: 0.5s ease;
+}
+
+.assortment-ul > li:nth-child(3) 
+{
+    background-image: url(./img/cocktail-assortment.svg);
+    width: 412px;
+    height: 600px;
+    border: 1px solid var(--light-yellow);
+    transition: 0.5s ease;
+}
+
+.assortment-ul > li:hover 
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/beer-assortment.svg);
+}
+
+.assortment-ul > li:nth-child(2):hover 
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/wine-assortment.svg);
+}
+
+.assortment-ul > li:nth-child(3):hover 
+{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/cocktail-assortment.svg);
+}
+
+.assortment-li:hover .assortment-h3
+{
+    opacity: 1;
+}
+
+.assortment-h3
+{
+    
+    font-family: "Cormorant Upright";
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 4%;
+    text-align: center;
+    color: var(--white);
+    opacity: 0;
+}   
+
+.assortment-li
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-drink-div
+{
+    text-align: center;
+    margin-top: 201px;
 }
 
 .bar-menu-p
@@ -1379,13 +1781,20 @@ body
     font-weight: 700;
     line-height: 41.6px;
     letter-spacing: 0.04em;
-    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--white);
-
+    text-align: center;
+    margin: 0px;
 }
 
+.find-us-text
+{
+
+    width: 513;
+    height: 488;
+
+}
 .visit-us-button
 {
    
@@ -1406,6 +1815,8 @@ body
     opacity: 0px;
     border: 0px;
     background-color: var(--yellow);
+
+    margin-top: 64px;
 
 }
 
